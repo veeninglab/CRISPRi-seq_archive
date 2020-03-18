@@ -1,6 +1,6 @@
 > Part of: Liu, X. _et al._ (2020) [title, journal]
 
-# CRISPRi-seq off-target evaluation beta
+# CRISPRi-seq off-target evaluation alpha
 - the file **function_specificity_score.R** finds all potential off-target sites and gives them a specificity score
 - the file **offTarget_effect_scoring.R** calls on **function_specificity_score.R** for the _Streptococcus pneumoniae_ D39V genome and our CRISPRi-seq whole-genome sgRNA library
 
