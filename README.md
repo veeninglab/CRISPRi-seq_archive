@@ -1,8 +1,9 @@
 > Part of: Liu, X. _et al._ (2020) [title, journal]
 
-# CRISPRi-seq off-target evaluation alpha
-- the file **function_specificity_score.R** finds all potential off-target sites and gives them a specificity score
-- the file **offTarget_effect_scoring.R** calls on **function_specificity_score.R** for the _Streptococcus pneumoniae_ D39V genome and our CRISPRi-seq whole-genome sgRNA library
+# CRISPRi-seq target evaluation alpha
+- The file **function_sgRNAefficiency.R** contains a function to find and score all binding sites of a given list of sgRNAs in a given genome.
+- The file **library-efficiency.R** contains a script that performs the complete pipeline of target identification and library efficiency analysis. Outputs an Excel table. Calls **function_sgRNAefficiency.R**. 
+- The file **library-efficiency-pneumococcal-strains.pdf** contains an analysis of the results of **library-efficiency.R** for seven penumococcal genomes, given the CRISPRi library of this publication. Source code of the pdf: **library-efficiency-pneumococcal-strains.Rmd**.
 
 Requires R packages [CRISPRseek](https://bioconductor.org/packages/release/bioc/html/CRISPRseek.html) & [biomartr](https://cran.r-project.org/package=biomartr).
 
