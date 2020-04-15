@@ -1,6 +1,6 @@
 > Part of: Liu, X. _et al._ (2020) [title, journal]
 
-# CRISPRi-seq target evaluation alpha
+# CRISPRi-seq target evaluation
 - The file **function_sgRNAefficiency.R** contains a function to find and score all binding sites of a given list of sgRNAs in a given genome.
 - The file **library-efficiency.R** contains a script that performs the complete pipeline of target identification and library efficiency analysis. Outputs an Excel table. Calls **function_sgRNAefficiency.R**. 
 - The file **library-efficiency-pneumococcal-strains.pdf** contains an analysis of the results of **library-efficiency.R** for seven penumococcal genomes, given the CRISPRi library of this publication. Source code of the pdf: **library-efficiency-pneumococcal-strains.Rmd**.
