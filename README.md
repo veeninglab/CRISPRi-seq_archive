@@ -1,4 +1,6 @@
-> Part of: Liu, X. _et al._ (2020) [title, journal]
+**See also: <https://www.veeninglab.com/crispri-seq>**  
+
+> Part of: Xue Liu, Jacqueline M. Kimmey, Vincent de Bakker, Victor Nizet, Jan-Willem Veening (2020) Exploration of bacterial bottlenecks and _Streptococcus pneumoniae_ pathogenesis by CRISPRi-seq. bioRxiv 2020.04.22.055319; doi: <https://doi.org/10.1101/2020.04.22.055319> 
 
 # CRISPRi-seq target evaluation
 - The file **function_sgRNAefficiency.R** contains a function to find and score all binding sites of a given list of sgRNAs in a given genome.
